@@ -1,5 +1,9 @@
 class User < ActiveRecord::Base
+  has_many :flats
+
+  validates :firstname, presence: true
+  validates :lastname,  presence: true
+  validates :email, presence: true, uniqueness: true
 end
 
 
- rails g model Flat title:string description:text city:string capacity:integer price:  user:references
