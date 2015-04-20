@@ -44,6 +44,14 @@ group :development, :test do
 end
 
 gem 'aws-sdk', '<2.0'
+
 gem 'paperclip'
+
 gem 'money-rails'
+
+gem 'bootstrap-sass'
+
+gem 'font-awesome-sass'
+
+gem 'simple_form'
 
